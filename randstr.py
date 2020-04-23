@@ -1,5 +1,6 @@
 #Generate an ostensibly random string.
 import random
+import sys
 
 def main():
 	pw = ""
