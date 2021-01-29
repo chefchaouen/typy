@@ -29,7 +29,7 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(
 		prog="TyRandString", description="Generates"
 		+ " a string containing random characters that can be"
-		+ "used for passwords.")
+		+ " used for passwords.")
 	parser.add_argument(
 		"length", help="specify length of string to generate.",
 		nargs=1, type=int, action="store")
